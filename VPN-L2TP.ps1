@@ -1,0 +1,1 @@
+Add-VpnConnection -Name "HQ" -ServerAddress "yourip.com" -TunnelType "L2tp" -EncryptionLevel "Optional" -AuthenticationMethod Pap -L2tpPsk "vpn@unepasswordyouwant" -UseWinlogonCredential -AllUserConnection -PassThru
